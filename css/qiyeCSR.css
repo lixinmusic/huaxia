@@ -81,11 +81,14 @@ body{
       text-align: left;
       font-size: 0.2rem;
       color: #ffffff;
+      font-weight: 700; 
     }
 
 .diyas .yi ul span{
-   font-size: 0.25rem;
+   font-size: 0.28rem;
       color: #ffffff;
+      font-weight: 700; 
+
 }
 
 
@@ -95,16 +98,18 @@ body{
     height: 0.41rem;
     position: absolute;
     /* border:1px solid red; */
-    bottom: 1.1rem;
+    bottom: 1.05rem;
     left: 3.61rem; 
 }
 .diyb .yi ul{
   text-align: left;
       font-size: 0.2rem;
       color: #ffffff;
+        font-weight: 700; 
 }
 .diyb .yi ul span{
-  font-size: 0.25rem;
+  font-size: 0.27rem;
       color: #ffffff;
+      font-weight: 700; 
 }
  
