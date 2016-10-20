@@ -1,0 +1,194 @@
+*, h1, h2, h3, h4, input, p, img {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 140.625px; } }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 125px; } }
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 117.1875px; } }
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 93.75px; } }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 84.375px; } }
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 78.125px; } }
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 73.4375px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 64.6875px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 64.375px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 58.59375px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 56.25px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px; } }
+
+.dong {
+  width: 100%;
+  height: 1.2rem;
+  background: #18191d;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2rem;
+  font-size: 18px;
+  display: block; }
+  .dong img {
+    width: 0.23rem;
+    height: 0.38rem;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.43rem; }
+  .dong span a {
+    width: 0.9rem;
+    height: 0.5rem;
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 0.04rem;
+    left: 0.45rem; }
+
+.tiao {
+  width: 100%;
+  height: 0.03rem;
+  background: #9b9693;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.dyi {
+  width: 100%;
+  height: 1.96rem;
+  background: url(../img/wu1.png) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .dyi .yi {
+    width: 100%;
+    height: 0.5rem;
+    background: #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .dyi .yi ul {
+      text-align: center;
+      line-height: 0.5rem;
+      font-size: 0.2rem;
+      color: #ffffff; }
+
+.der {
+  width: 100%;
+  height: 1.96rem;
+  margin-top: 0.05rem;
+  background: url(../img/wu2.png) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .der .er {
+    width: 100%;
+    height: 0.5rem;
+    background: #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .der .er ul {
+      text-align: center;
+      line-height: 0.5rem;
+      font-size: 0.2rem;
+      color: #ffffff; }
+
+.dsan {
+  width: 100%;
+  height: 1.96rem;
+  margin-top: 0.05rem;
+  background: url(../img/wu3.png) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .dsan .san {
+    width: 100%;
+    height: 0.5rem;
+    background: #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .dsan .san ul {
+      text-align: center;
+      line-height: 0.5rem;
+      font-size: 0.2rem;
+      color: #ffffff; }
+
+.dsi {
+  width: 100%;
+  height: 1.96rem;
+  margin-top: 0.05rem;
+  background: url(../img/wu4.png) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .dsi .si {
+    width: 100%;
+    height: 0.5rem;
+    background: #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .dsi .si ul {
+      text-align: center;
+      line-height: 0.5rem;
+      font-size: 0.2rem;
+      color: #ffffff; }
+
+.dwu {
+  width: 100%;
+  height: 1.96rem;
+  margin-top: 0.05rem;
+  background: url(../img/wu5.png) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .dwu .wu {
+    width: 100%;
+    height: 0.5rem;
+    background: #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .dwu .wu ul {
+      text-align: center;
+      line-height: 0.5rem;
+      font-size: 0.2rem;
+      color: #ffffff; }

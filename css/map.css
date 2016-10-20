@@ -1,0 +1,73 @@
+*, h1, h2, h3, h4, input, p, img {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 125px; } }
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 84.375px; } }
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 73.4375px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 64.6875px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 64.375px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 58.59375px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 56.25px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px; } }
+
+.tops {
+  width: 100%;
+  height: 1.0rem;
+  background: #18191d;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  line-height: 1.0rem;
+  font-size: 18px;
+  display: block; }
+  .tops img {
+    width: 0.23rem;
+    height: 0.38rem;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.33rem; }
+  .tops span a {
+    width: 0.9rem;
+    height: 0.5rem;
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 0.04rem;
+    left: 0.45rem; }
+
+#dituContent {
+  width: auto;
+  height: 10.34rem;
+  border: 1px solid #ccc; }

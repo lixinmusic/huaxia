@@ -1,0 +1,266 @@
+*, h1, h2, h3, h4, input, p, img {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 140.625px; } }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 125px; } }
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 93.75px; } }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 84.375px; } }
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 78.125px; } }
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 73.4375px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 64.6875px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 64.375px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 58.59375px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 56.25px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px; } }
+
+body {
+  overflow: hidden; }
+
+.black {
+  width: 100%;
+  height: 1.18rem;
+  position: relative; }
+  .black h1 {
+    width: 1.47rem;
+    height: 0.38rem;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0.1rem; }
+
+.plan {
+  width: 100%;
+  height: 100%;
+  background: #F1F3F2;
+  position: relative; }
+  .plan img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  .plan span {
+    width: 2.49rem;
+    height: 0.29rem;
+    text-align: center;
+    line-height: 0.29rem;
+    position: absolute;
+    left: 0.35rem;
+    top: 0.58rem;
+    font-weight: 800;
+    font-size: 14px;
+    background: url(../img/xing1.jpg) no-repeat; }
+  .plan .xm {
+    width: 5.5rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 1.11rem; }
+    .plan .xm input {
+      width: 4.07rem;
+      height: 0.35rem;
+      font-size: 18px;
+      margin-left: 0.5rem;
+      color: #8e8e8e; }
+  .plan .xb {
+    width: 5.5rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 1.9rem; }
+    .plan .xb input {
+      width: 4.07rem;
+      height: 0.35rem;
+      font-size: 18px;
+      margin-left: 0.5rem;
+      color: #8e8e8e; }
+  .plan .zy {
+    width: 5.5rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 2.69rem; }
+    .plan .zy input {
+      width: 4.07rem;
+      height: 0.35rem;
+      font-size: 18px;
+      margin-left: 0.5rem;
+      color: #8e8e8e; }
+  .plan .sjh {
+    width: 5.5rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 3.48rem; }
+    .plan .sjh input {
+      width: 3.8rem;
+      height: 0.35rem;
+      font-size: 18px;
+      margin-left: 0.2rem;
+      color: #8e8e8e; }
+  .plan .m {
+    width: 2.4rem;
+    height: 0.33rem;
+    position: absolute;
+    left: 0.35rem;
+    top: 4.85rem;
+    background: url(../img/xing1.jpg) no-repeat; }
+    .plan .m ul {
+      text-align: center;
+      line-height: 0.29rem;
+      font-size: 14px;
+      font-weight: 800; }
+  .plan .sza {
+    width: 5.5rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 5.4rem; }
+    .plan .sza input {
+      width: 2rem;
+      height: 0.85rem;
+      font-size: 18px;
+      margin-left: 0.2rem;
+      color: #8e8e8e; }
+  .plan .qr {
+    width: 5.5rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 6.19rem; }
+    .plan .qr input {
+      width: 2.9rem;
+      height: 0.85rem;
+      font-size: 18px;
+      margin-left: 0.2rem;
+      color: #8e8e8e; }
+  .plan input {
+    border: none;
+    background: none;
+    outline: medium; }
+  .plan .enroll a {
+    width: 5.7rem;
+    height: 0.79rem;
+    background: #e0a423;
+    position: absolute;
+    top: 7.54rem;
+    left: 0.36rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.79rem;
+    font-size: 20px;
+    border-radius: 0.07rem; }
+
+.zhe {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  margin: auto;
+  z-index: 2; }
+  .zhe .bosom {
+    width: 4.96rem;
+    height: 2.61rem;
+    background: #fff;
+    border-radius: 0.09rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+    .zhe .bosom span {
+      width: 4.8rem;
+      height: 0.39rem;
+      text-align: center;
+      color: #383735;
+      font-size: 20px;
+      font-weight: 800;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto; }

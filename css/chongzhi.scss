@@ -1,0 +1,156 @@
+@import 'public';
+
+@mixin userem($size){
+  $list:800px,640px,540px,470px,414px,412px,375px,360px,320px;
+  @each $i in $list{
+    @media screen and (max-width:#{$i}){
+      html{
+        font-size: 100px*($i/$size);
+      }
+    }
+  }
+}
+@include userem(640px);
+body{
+  overflow: hidden;
+}
+.black{
+  width:100%;
+  height:1.18rem;
+  position: relative;
+  h1{
+    width:1.47rem;
+    height:0.38rem;
+    font-size: 20px;
+    @include leftright;
+    bottom:0.1rem;
+  }
+}
+.plan {
+  width: 100%;
+  height: 100%;
+  background: #F1F3F2;
+  overflow: hidden;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  span{
+    width:2.69rem;
+    height:0.29rem;
+    text-align: center;
+    line-height:0.29rem ;
+    position: absolute;
+    left:0.35rem;
+    top:0.58rem;
+    font-weight: 800;
+    font-size: 14px;
+    background:url(../img/xing1.jpg)no-repeat;
+
+  }
+  .xms{
+    width:5.5rem;
+    height:0.79rem;
+    background: #fff;
+    border:1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top:1.11rem;
+    input{
+      width: 2.85rem;
+      height:0.35rem;
+      padding-left: 1.1rem;
+      font-size: 18px;
+
+      color: #8e8e8e;
+
+    }
+
+  }
+  .xba{
+    width:5.5rem;
+    height:0.79rem;
+    background: #fff;
+    border:1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top:1.9rem;
+    input{
+      width: 2.5rem;
+      height:0.35rem;
+      font-size: 18px;
+      margin-left: 0.09rem;
+      color: #8e8e8e;
+
+    }
+
+  }
+  .zy{
+    width:5.5rem;
+    height:0.79rem;
+    background: #fff;
+    border:1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top:2.69rem;
+    input{
+      width: 2rem;
+      height:0.35rem;
+      font-size: 18px;
+      margin-left: 0.5rem;
+      color: #8e8e8e;
+
+    }
+
+  }
+  input {
+    border: none;
+    background: none;
+    outline: medium;
+  }
+
+  .cancel a{
+    width:2.63rem ;
+    height:0.75rem;
+    background:#898989;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.75rem;
+    border-radius: 0.06rem;
+    position: absolute;
+    left:0.36rem;
+    top:7.4rem;
+
+  }
+  .affirm a{
+    width:2.63rem ;
+    height:0.75rem;
+    background:#e0a423;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.75rem;
+    border-radius: 0.06rem;
+    position: absolute;
+    right:0.36rem;
+    top:7.4rem;
+
+  }
+
+
+}

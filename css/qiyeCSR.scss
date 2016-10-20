@@ -1,0 +1,91 @@
+@import 'public';
+
+@mixin userem($size){
+  $list:900px,800px,640px,600px,540px,500px,470px,414px,412px,375px,360px,320px;
+  @each $i in $list{
+    @media screen and (max-width:#{$i}){
+      html{
+        font-size: 100px*($i/$size);
+      }
+    }
+  }
+}
+@include userem(640px);
+.abtop{
+  width:100%;
+  height:1.2rem;
+  background:#18191d;
+  position: relative;
+  color:#fff;
+  text-align: center;
+  line-height: 1.2rem;
+  font-size: 18px;
+  display:block;
+  img {
+    width: 0.23rem;
+    height: 0.38rem;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.43rem;
+  }
+  span a{
+    width: 0.9rem;
+    height:0.5rem;
+    color:#fff;
+    font-size: 15px;
+    position: absolute;
+    top:0.04rem;
+    left:0.45rem;
+  }
+}
+.tiao{
+  width: 100%;
+  height:0.03rem;
+  background: #9b9693;
+  background-color:rgba(0,0,0,0.7);
+}
+.diyas{
+  width:100%;
+  height:5.05rem;
+  background: url(../img/ere.png)no-repeat;
+  background-size: cover;
+  position: relative;
+  .yi{
+    width: 100%;
+    height:0.5rem;
+    background:#000000;
+    background-color:rgba(0,0,0,0.3);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    ul{
+      text-align: center;
+      line-height: 0.5rem;
+      font-size: 0.2rem;
+      color:#ffffff;
+    }
+  }
+}
+.dieas{
+  width:100%;
+  height:5.05rem;
+  background: url(../img/erea.png)no-repeat;
+  background-size: cover;
+  position: relative;
+  .er{
+    width: 100%;
+    height:0.5rem;
+    background:#000000;
+    background-color:rgba(0,0,0,0.3);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    ul{
+
+      text-align: center;
+      line-height: 0.5rem;
+      font-size: 0.2rem;
+      color:#ffffff
+    }
+  }
+}

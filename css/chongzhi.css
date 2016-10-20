@@ -1,0 +1,164 @@
+*, h1, h2, h3, h4, input, p, img {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 125px; } }
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 84.375px; } }
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 73.4375px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 64.6875px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 64.375px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 58.59375px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 56.25px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px; } }
+
+body {
+  overflow: hidden; }
+
+.black {
+  width: 100%;
+  height: 1.18rem;
+  position: relative; }
+  .black h1 {
+    width: 1.47rem;
+    height: 0.38rem;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0.1rem; }
+
+.plan {
+  width: 100%;
+  height: 100%;
+  background: #F1F3F2;
+  overflow: hidden;
+  position: relative; }
+  .plan img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  .plan span {
+    width: 2.69rem;
+    height: 0.29rem;
+    text-align: center;
+    line-height: 0.29rem;
+    position: absolute;
+    left: 0.35rem;
+    top: 0.58rem;
+    font-weight: 800;
+    font-size: 14px;
+    background: url(../img/xing1.jpg) no-repeat; }
+  .plan .xms {
+    width: 5.5rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 1.11rem; }
+    .plan .xms input {
+      width: 2.85rem;
+      height: 0.35rem;
+      padding-left: 1.1rem;
+      font-size: 18px;
+      color: #8e8e8e; }
+  .plan .xba {
+    width: 5.5rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 1.9rem; }
+    .plan .xba input {
+      width: 2.5rem;
+      height: 0.35rem;
+      font-size: 18px;
+      margin-left: 0.09rem;
+      color: #8e8e8e; }
+  .plan .zy {
+    width: 5.5rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.79rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 2.69rem; }
+    .plan .zy input {
+      width: 2rem;
+      height: 0.35rem;
+      font-size: 18px;
+      margin-left: 0.5rem;
+      color: #8e8e8e; }
+  .plan input {
+    border: none;
+    background: none;
+    outline: medium; }
+  .plan .cancel a {
+    width: 2.63rem;
+    height: 0.75rem;
+    background: #898989;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.75rem;
+    border-radius: 0.06rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 7.4rem; }
+  .plan .affirm a {
+    width: 2.63rem;
+    height: 0.75rem;
+    background: #e0a423;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.75rem;
+    border-radius: 0.06rem;
+    position: absolute;
+    right: 0.36rem;
+    top: 7.4rem; }

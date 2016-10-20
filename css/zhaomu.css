@@ -1,0 +1,155 @@
+*, h1, h2, h3, h4, input, p, img {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 140.625px; } }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 125px; } }
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 117.1875px; } }
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 93.75px; } }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 84.375px; } }
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 78.125px; } }
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 73.4375px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 64.6875px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 64.375px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 58.59375px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 56.25px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px; } }
+
+body, html {
+  background: #f3f3f3;
+  overflow: hidden; }
+
+.abtopb {
+  width: 100%;
+  height: 1.2rem;
+  background: #18191d;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2rem;
+  font-size: 18px;
+  display: block; }
+  .abtopb img {
+    width: 0.23rem;
+    height: 0.38rem;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.43rem; }
+  .abtopb span a {
+    width: 0.9rem;
+    height: 0.5rem;
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 0.04rem;
+    left: 0.45rem; }
+
+.zhao {
+  width: 6.41rem;
+  height: 1.40rem;
+  margin: 0 auto;
+  padding-top: 0.27rem; }
+  .zhao img {
+    width: 6.41rem;
+    height: 1.40rem; }
+
+.zhiyu {
+  width: 6.41rem;
+  height: 1.4rem;
+  position: relative; }
+  .zhiyu img {
+    width: 1.97rem;
+    height: 0.4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto; }
+
+table {
+  width: 5.63rem;
+  height: 3.21rem;
+  margin: auto;
+  border: 1px solid #dcdcdc; }
+
+tbody, tr, td {
+  border: none;
+  background: none;
+  outline: medium; }
+
+tr {
+  font-weight: 800;
+  font-size: 15px;
+  color: #5b5859;
+  border: 1px solid #dcdcdc; }
+
+td {
+  text-align: center;
+  height: 0.82rem;
+  border: 1px solid #dcdcdc; }
+
+input {
+  width: 3.9rem;
+  height: 0.79rem;
+  border: none;
+  background: none;
+  outline: medium;
+  color: #5b5859;
+  font-size: 15px; }
+
+.refer {
+  width: 5.63rem;
+  height: 0.77rem;
+  background: #e0a423;
+  color: #fff;
+  text-align: center;
+  line-height: 0.77rem;
+  font-size: 20px;
+  font-weight: 800;
+  margin: auto;
+  margin-top: 1.4rem;
+  border-radius: 0.05rem; }
