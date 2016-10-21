@@ -69,7 +69,7 @@ body{
   background-size: cover;
  
 }
-  .diyas .yi {
+  .diyas a .yi {
     width: 2.38rem;
     height: 0.41rem;
     position: absolute;
@@ -77,14 +77,14 @@ body{
     bottom: 1.65rem;
     left: 3.5rem; 
   }
-    .diyas .yi ul {
+    .diyas a .yi ul {
       text-align: left;
       font-size: 0.2rem;
       color: #ffffff;
       font-weight: 700; 
     }
 
-.diyas .yi ul span{
+.diyas a .yi ul span{
    font-size: 0.28rem;
       color: #ffffff;
       font-weight: 700; 
@@ -102,7 +102,7 @@ body{
     left: 3.5rem; 
 }
 .diyb .yi ul{
-  text-align: left;
+     text-align: left;
       font-size: 0.2rem;
       color: #ffffff;
         font-weight: 700; 
