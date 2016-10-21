@@ -51,78 +51,80 @@ body, html {
   width: 100%;
   height: 0.03rem;
   background: #9b9693;
-  background-color: rgba(0, 0, 0, 0.7); }
+  background-color: rgba(0, 0, 0, 0.7); 
+}
 
 
 
-.zhe {
+.zhea {
   width: 100%;
-  height: 10.11rem;
-  background: url(../img/zai4.png) no-repeat;
+  height: 10.21rem;
+  background: url(../img/tie.png) no-repeat;
   background-size: cover;
   
 }
-  .zhe a .diyi {
-    width: 2.38rem;
-    height: 0.5rem;
-    /* border:1px solid #000;  */
+  .zhea a .diyie {
+    width: 2rem;
+    height: 0.5rem;   
     position: absolute;
-    bottom: 2.16rem;
-    left: 1.2rem; }
-    .zhe a .diyi  ul {
-    
+    bottom: 2.2rem;
+    left: 3.38rem; }
+    .zhea a .diyie  ul {
+      text-align: center;
       line-height: 0.5rem;
       font-size: 0.2rem;
-      color: #ffffff; 
+      color: #7a7a7a; 
       font-weight: 700;
     }
 
-.diyi  ul span{
+.diyie  ul span{
        font-size: 0.27rem;
-        color: #ffffff;
+        color: #4f4f4f;
         font-weight: 700;
       }
 
 
 
-  .dier {
-    width: 2.38rem;
+  .dierm {
+    width: 2rem;
     height: 0.5rem;
     /* border:1px solid #000; */
     position: absolute;
     bottom: 1.6rem;
-    left: 1.2rem; }
-    .dier ul {
+    left: 3.35rem; }
+    .dierm ul {
+      text-align: center;
       line-height: 0.5rem;
       font-size: 0.2rem;
-      color: #ffffff;
+      color: #7a7a7a;
       font-weight: 700; 
     }
 
-.dier ul span{
+.dierm ul span{
        font-size: 0.27rem;
-        color: #ffffff;
+        color: #4f4f4f;
         font-weight: 700;
       }
 
 
 
-  .disan {
-    width: 2.38rem;
+  .disant {
+    width: 2rem;
     height: 0.5rem;
-   /*  border:1px solid #000;  */
+  /*   border:1px solid #000;  */
     position: absolute;
     bottom: 1.02rem;
-    left: 1.2rem;
+    left: 3.48rem;
      }
-     .disan ul {
+     .disant ul {
+      text-align: center;
       line-height: 0.5rem;
       font-size: 0.2rem;
-      color: #ffffff;
+      color: #7a7a7a;
       font-weight: 700; 
     }
-  .disan ul span{
+  .disant ul span{
        font-size: 0.27rem;
-        color: #ffffff;
+        color: #4f4f4f;
         font-weight: 700;
       }
