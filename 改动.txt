@@ -3,3 +3,6 @@ gongyizhongxin.html
 企业CAS.html
 
 gongyizuji.html
+
+公益人招募详情.html
+

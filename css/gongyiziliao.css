@@ -42,33 +42,10 @@ a {
   html {
     font-size: 50px; } }
 
-body, html {
-  overflow: hidden; }
+body {
+   position: relative; }
 
-.din {
-  width: 100%;
-  height: 1.2rem;
-  background: #18191d;
-  position: relative;
-  color: #fff;
-  text-align: center;
-  line-height: 1.2rem;
-  font-size: 18px;
-  display: block; }
-  .din img {
-    width: 0.23rem;
-    height: 0.38rem;
-    position: absolute;
-    left: 0.25rem;
-    top: 0.43rem; }
-  .din span a {
-    width: 0.9rem;
-    height: 0.5rem;
-    color: #fff;
-    font-size: 15px;
-    position: absolute;
-    top: 0.04rem;
-    left: 0.45rem; }
+
 
 .tiao {
   width: 100%;
@@ -78,104 +55,109 @@ body, html {
 
 .diy {
   width: 100%;
-  height: 1.96rem;
-  background: url(../img/tu1.png) no-repeat;
+  height: 10.12rem;
+  background: url(../img/tu12.png) no-repeat;
   background-size: cover;
-  position: relative; }
+   }
   .diy .yi {
-    width: 100%;
+    width: 3.68rem;
     height: 0.5rem;
-    background: #000000;
-    background-color: rgba(0, 0, 0, 0.3);
+    /* border:1px solid #000; */
     position: absolute;
-    bottom: 0;
-    left: 0; }
+    bottom: 2.67rem;
+    left: 0.96rem; }
     .diy .yi ul {
       text-align: center;
       line-height: 0.5rem;
-      font-size: 0.2rem;
-      color: #ffffff; }
+      font-size: 0.22rem;
+      color: #ffffff; 
+      font-weight: 700;
+    }
+.diy .yi ul span{
+     font-size: 0.27rem;
+     font-weight: 700;
+}
 
-.die {
-  width: 100%;
-  height: 1.96rem;
-  margin-top: 0.05rem;
-  background: url(../img/tu2.png) no-repeat;
-  background-size: cover;
-  position: relative; }
+
+
+
   .die .er {
-    width: 100%;
+    width: 2.18rem;
     height: 0.5rem;
-    background: #000000;
-    background-color: rgba(0, 0, 0, 0.3);
+   /*  border:1px solid #000; */
     position: absolute;
-    bottom: 0;
-    left: 0; }
+    bottom: 2.09rem;
+    left: 0.79rem; }
     .die .er ul {
       text-align: center;
       line-height: 0.5rem;
-      font-size: 0.2rem;
-      color: #ffffff; }
+      font-size: 0.22rem;
+      color: #ffffff; 
+      font-weight: 700;
+    }
+    .die .er ul span{
+       font-size: 0.27rem;
+     font-weight: 700;
+    }
 
-.disa {
-  width: 100%;
-  height: 1.96rem;
-  margin-top: 0.05rem;
-  background: url(../img/wu3.png) no-repeat;
-  background-size: cover;
-  position: relative; }
+
+
+
+
   .disa .san {
-    width: 100%;
-    height: 0.5rem;
-    background: #000000;
-    background-color: rgba(0, 0, 0, 0.3);
+    width: 2.38rem;
+  
+    height: 0.4rem;
     position: absolute;
-    bottom: 0;
-    left: 0; }
+    bottom: 9.2rem;
+    left: 0.85rem; }
     .disa .san ul {
       text-align: center;
-      line-height: 0.5rem;
-      font-size: 0.2rem;
-      color: #ffffff; }
+      line-height: 0.4rem;
+      font-size: 0.22rem;
+      color: #7b7b7b; 
+      font-weight: 700;
+    }
+.disa .san ul span{
+  font-size: 0.27rem;
+  font-weight: 700;
+   color: #4f4f4f; 
+}
 
-.dis {
-  width: 100%;
-  height: 1.96rem;
-  margin-top: 0.05rem;
-  background: url(../img/wutu1.png) no-repeat;
-  background-size: cover;
-  position: relative; }
+
+
   .dis .si {
-    width: 100%;
+    width:3.7rem;
     height: 0.5rem;
-    background: #000000;
-    background-color: rgba(0, 0, 0, 0.3);
+   /*  border:1px solid #000; */
     position: absolute;
-    bottom: 0;
-    left: 0; }
+    bottom: 1.47rem;
+    left: 0.95rem; }
     .dis .si ul {
       text-align: center;
       line-height: 0.5rem;
-      font-size: 0.2rem;
-      color: #ffffff; }
+      font-size: 0.22rem;
+      color: #ffffff;
+      font-weight: 700; 
+    }
+   .dis .si ul span{
+    font-weight: 700;
+    font-size: 0.27rem;
+   }
 
-.diw {
-  width: 100%;
-  height: 1.96rem;
-  margin-top: 0.05rem;
-  background: url(../img/wu5.png) no-repeat;
-  background-size: cover;
-  position: relative; }
+
+
   .diw .wu {
-    width: 100%;
-    height: 0.5rem;
-    background: #000000;
-    background-color: rgba(0, 0, 0, 0.3);
+    width: 1.38rem;
+    height: 0.4rem;
     position: absolute;
-    bottom: 0;
-    left: 0; }
+    bottom: 8.59rem;
+    left: 0.48rem; 
+  }
     .diw .wu ul {
       text-align: center;
-      line-height: 0.5rem;
-      font-size: 0.2rem;
-      color: #ffffff; }
+      line-height: 0.4rem;
+      font-size: 0.22rem;
+      color: #7a7a7a;
+      font-weight: 700;
+       }
