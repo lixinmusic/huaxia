@@ -132,8 +132,9 @@ a {
       font-size: 0.29rem;
       color: #ffffff;
       padding-top: 0.35rem;
-      writing-mode:tb-rl;
+      writing-mode:vertical-rl;
       font-weight: 800;
+      -webkit-writing-mode:vertical-rl;
        }
 
 .dsi {
