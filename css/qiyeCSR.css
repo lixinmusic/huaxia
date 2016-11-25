@@ -60,7 +60,7 @@ body{
 
 .diyas {
   width: 100%;
-  height: 10.52rem;
+  height: 10.59rem;
   background: url(../img/ers.png) no-repeat;
   background-size: cover;
  
@@ -70,7 +70,7 @@ body{
     height: 0.41rem;
     position: absolute;
     /* border:1px solid red; */
-    bottom: 1.65rem;
+    bottom: 1.72rem;
     left: 3.5rem; 
   }
     .diyas a .yi ul {
@@ -94,7 +94,7 @@ body{
     height: 0.41rem;
     position: absolute;
     /* border:1px solid red; */
-    bottom: 1.05rem;
+    bottom: 1.12rem;
     left: 3.5rem; 
 }
 .diyb .yi ul{

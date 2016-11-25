@@ -47,17 +47,13 @@ body, html {
 }
 
 
-.tiao {
-  width: 100%;
-  height: 0.03rem;
-  background: #9b9693;
-  background-color: rgba(0, 0, 0, 0.7); }
+
 
 
 
 .zhe {
   width: 100%;
-  height: 10.21rem;
+  height: 10.28rem;
   background: url(../img/zai4.png) no-repeat;
   background-size: cover;
   
@@ -67,7 +63,7 @@ body, html {
     height: 0.5rem;
     /* border:1px solid #000;  */
     position: absolute;
-    bottom: 2.16rem;
+    bottom: 2.23rem;
     left: 1.2rem; }
     .zhe a .diyi  ul {
     
@@ -90,7 +86,7 @@ body, html {
     height: 0.5rem;
     /* border:1px solid #000; */
     position: absolute;
-    bottom: 1.6rem;
+    bottom: 1.64rem;
     left: 1.2rem; }
     .dier ul {
       line-height: 0.5rem;
@@ -112,7 +108,7 @@ body, html {
     height: 0.5rem;
    /*  border:1px solid #000;  */
     position: absolute;
-    bottom: 1.02rem;
+    bottom: 1.05rem;
     left: 1.2rem;
      }
      .disan ul {
