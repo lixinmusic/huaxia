@@ -56,15 +56,11 @@ a {
 body{
   position: relative;
 }
-.tiao {
-  width: 100%;
-  height: 0.03rem;
-  background: #9b9693;
-  background-color: rgba(0, 0, 0, 0.7); }
+
 
 .diyas {
   width: 100%;
-  height: 10.12rem;
+  height: 10.52rem;
   background: url(../img/ers.png) no-repeat;
   background-size: cover;
  

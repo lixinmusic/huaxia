@@ -47,18 +47,12 @@ body, html {
 }
 
 
-.tiao {
-  width: 100%;
-  height: 0.03rem;
-  background: #9b9693;
-  background-color: rgba(0, 0, 0, 0.7); 
-}
 
 
 
 .zhea {
   width: 100%;
-  height: 10.21rem;
+  height: 10.31rem;
   background: url(../img/tie.png) no-repeat;
   background-size: cover;
   
